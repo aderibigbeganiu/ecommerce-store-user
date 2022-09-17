@@ -3,11 +3,7 @@ name: ecommerce-store-user CD
 on:
   push:
     branches: [ master ]
-    
-#set environment variables 
-env:
-  HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-  APP_NAME: ${{ secrets.APP_NAME }}
+
   
 jobs:
   build:
